@@ -1,45 +1,84 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>SebZG // Web Developer</title>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<script
+			src="https://kit.fontawesome.com/c1bc576c12.js"
+			crossorigin="anonymous"
+			defer></script>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+	<body>
+		<!-- HEADER -->
+		<header class="header">
+			<div class="name-wrapper">
+				<h1 class="name__h1 nowrap">Sebastian</h1>
+				<h2><span class="name__h2 nowrap">Zapata Gutierrez</span></h2>
+			</div>
 
-<body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
+			<!-- NAV -->
+			<nav class="nav">
+				<ul class="nav__ul">
+					<li class="nav__li">
+						<a class="nav__a" href="#about">About</a>
+					</li>
+					<li class="nav__li">
+						<a class="nav__a" href="#work">Work</a>
+					</li>
+					<li class="nav__li">
+						<a class="nav__a" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- AVATAR -->
+		<section class="avatar">
+			<img
+				class="avatar__img"
+				src="./assets/images/avatar-338-338.jpeg"
+				alt="Profile picture"
+				width="338px"
+				height="338px" />
+			<h2 class="avatar__h2">Web Developer</h2>
+		</section>
+		<!-- TECH STACK -->
+		<section class="tech-stack">
+			<i class="fa-brands fa-html5" title="HTML" alt="HTML"></i>
+			<i class="fa-brands fa-css3-alt" title="CSS" alt="CSS"></i>
+			<i class="fa-brands fa-js" title="JavaScipt" alt="JavaScipt"></i>
+			<i class="fa-brands fa-react" title="React" alt="React"></i>
+		</section>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+		<!-- MAIN -->
+		<main class="main">
+			<!-- ABOUT -->
+			<section class="about" id="about">
+				<h2>About Me</h2>
+			</section>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-    </section>
+			<!-- WORKD -->
+			<section class="work" id="work">
+				<h2>Work</h2>
+			</section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
-</body>
-
+			<!-- CONTACT-->
+			<section class="contact" id="contact">
+				<h2>Contact Me</h2>
+			</section>
+		</main>
+		<footer class="footer">
+			<!-- <h4 class="footer__h4--left">&copy;</h4> -->
+			<img
+				class="logo__img"
+				src="./assets/images/szg()-white.png"
+				alt="Logo"
+				width="500px"
+				height="500px" />
+			<!-- <h4 class="footer__h4--right">2023</h4> -->
+		</footer>
+	</body>
 </html>
