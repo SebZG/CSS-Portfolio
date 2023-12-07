@@ -1,13 +1,12 @@
 # Portofolio
-A prortfolio showcasing some of my latest work.
+## A prortfolio showcasing some of my latest work.
 
 [**Portfolio**]("sebzg.github.io/szg-portfolio/")
 
-## Technologies
+### Technologies
 - HTML
 - CSS
 
-
-## Recources
+### Recources
 - [**W3 School**]("https://www.w3schools.com/")
 - [**Color Pallete Generator**]("https://coolors.co/")
