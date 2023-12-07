@@ -160,7 +160,7 @@ html {
 	color: var(--YELLOW);
 }
 .fa-react {
-	font-weight: bold;
+	/* font-weight: bold; */
 	color: dodgerblue;
 }
 
