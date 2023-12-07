@@ -1,7 +1,7 @@
 # Portofolio
 ## A prortfolio showcasing some of my latest work.
 
-[**Portfolio**]("sebzg.github.io/szg-portfolio/")
+[**Portfolio**]("https://sebzg.github.io/szg-portfolio/")
 
 ### Technologies
 - HTML
