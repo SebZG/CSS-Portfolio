@@ -294,7 +294,6 @@ html {
 	background-size: cover;
 	background-blend-mode: overlay;
 	border: 0.3rem solid var(--ORANGE-WEB);
-	/* border: 0.3rem solid var(--BLUE-NCS); */
 	margin: 0.5rem;
 	border-radius: 0.5rem;
 	transition: all 0.3s ease-in-out;
@@ -307,7 +306,6 @@ html {
 .label {
 	position: absolute;
 	background-color: var(--ORANGE-WEB);
-	/* background-color: var(--BLUE-NCS); */
 	bottom: 0;
 	width: 100%;
 	color: var(--JET);
