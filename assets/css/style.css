@@ -216,6 +216,10 @@ html {
 	margin-left: 5%;
 }
 
+.about__center p {
+	margin: 0 10%;
+}
+
 .about__right {
 	grid-area: aboutR;
 }
@@ -354,14 +358,13 @@ html {
 .contact__center {
 	grid-area: contactC;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	margin-left: 5%;
 }
 
 .contact__center i {
 	font-size: 3rem;
-	margin: 0 7.5%;
 	transition: all 0.2s ease-in-out;
 	cursor: pointer;
 }
