@@ -24,7 +24,7 @@
 	--BLUE-NCS: #118ab2;
 	--INDIGO-DYE: #124e78;
 	--POPPY: #df2935;
-	--ORANGE-WEB: #fea82f;
+	--ORANGE-PEEL: #FF9F1C;
 	--JET: #333;
 }
 
@@ -161,7 +161,7 @@ html {
 	color: yellowgreen;
 }
 .fa-js {
-	color: var(--ORANGE-WEB);
+	color: var(--ORANGE-PEEL);
 }
 .fa-react {
 	font-weight: bold;
@@ -292,10 +292,9 @@ html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-blend-mode: overlay;
-	border: 0.3rem solid var(--ORANGE-WEB);
-	margin: 0.5rem;
+	/* border: 0.1rem solid var(--ORANGE-PEEL); */
 	border-radius: 0.5rem;
+	margin: 0.5rem;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -305,12 +304,14 @@ html {
 
 .label {
 	position: absolute;
-	background-color: var(--ORANGE-WEB);
+	background-color: var(--ORANGE-PEEL);
 	bottom: 0;
 	width: 100%;
 	color: var(--JET);
 	text-align: center;
 	z-index: 1;
+	border-bottom-left-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
 }
 
 .overlay {
@@ -319,6 +320,7 @@ html {
 	opacity: 0.5;
 	height: 100%;
 	width: 100%;
+	border-radius: 0.5rem;
 	transition: all 0.2s ease-in-out;
 }
 
