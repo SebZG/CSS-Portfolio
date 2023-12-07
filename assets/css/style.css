@@ -294,6 +294,7 @@ html {
 	background-size: cover;
 	background-blend-mode: overlay;
 	border: 0.3rem solid var(--ORANGE-WEB);
+	/* border: 0.3rem solid var(--BLUE-NCS); */
 	margin: 0.5rem;
 	border-radius: 0.5rem;
 	transition: all 0.3s ease-in-out;
@@ -303,9 +304,20 @@ html {
 	transform: scale(0.98);
 }
 
+.label {
+	position: absolute;
+	background-color: var(--ORANGE-WEB);
+	/* background-color: var(--BLUE-NCS); */
+	bottom: 0;
+	width: 100%;
+	color: var(--JET);
+	text-align: center;
+	z-index: 1;
+}
+
 .overlay {
 	position: absolute;
-	background-color: #118ab2;
+	background-color: var(--BLUE-NCS);
 	opacity: 0.5;
 	height: 100%;
 	width: 100%;
