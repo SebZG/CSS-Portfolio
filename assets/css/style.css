@@ -76,8 +76,6 @@ html {
 	font-size: 1.15rem;
 }
 
-/*  */
-
 /* NAV */
 
 .nav {
@@ -167,7 +165,7 @@ html {
 
 /* || MAIN */
 
-.main {
+/* .main {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-template-rows: auto auto auto;
@@ -187,7 +185,7 @@ html {
 }
 #contact {
 	grid-area: contact;
-}
+} */
 
 /* ABOUT */
 
@@ -197,7 +195,7 @@ html {
 	grid-template-rows: auto;
 	grid-template-areas: "aboutL aboutC aboutR";
 
-	margin-bottom: 20vh;
+	margin-top: 4rem;
 }
 
 .about__left {
@@ -233,7 +231,7 @@ html {
 	grid-template-rows: auto;
 	grid-template-areas: "workL workC workR";
 
-	margin-bottom: 5rem;
+	margin-top: 4rem;
 }
 
 .work__left {
@@ -343,7 +341,7 @@ html {
 	grid-template-areas: "contactL contactC contactR";
 
 	height: 6rem;
-	margin-bottom: 5rem;
+	margin-top: 4rem;
 }
 
 .contact__left {
@@ -395,6 +393,7 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 4rem;
 }
 
 .footer__logo {
