@@ -57,6 +57,11 @@ html {
 	scroll-margin-top: 15vh;
 }
 
+::selection {
+	background-color: var(--BLUE);
+	color: var(--WHITE);
+}
+
 /*! || HEADER */
 
 .header {
