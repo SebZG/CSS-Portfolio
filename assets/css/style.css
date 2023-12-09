@@ -406,8 +406,7 @@ html {
 .footer {
 	background-color: var(--BLUE);
 	color: var(--WHITE);
-	height: 75px;
-	font-size: var(--F-NORMAL);
+	height: 85px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
