@@ -80,16 +80,20 @@ html {
 .name__h1 {
 	font-size: var(--F-XL);
 	letter-spacing: 0.2rem;
+	font-weight: 500;
 }
 .name__h2 {
-	font-size: 1.15rem;
+	font-size: 1.2rem;
+	letter-spacing: 0.05rem;
+	font-weight: 400;
 }
 
 /*! NAV */
 
 .nav {
 	font-size: var(--F-L);
-	margin-right: 10%;
+	font-weight: 300;
+	margin-right: 15%;
 }
 
 .nav__ul {
