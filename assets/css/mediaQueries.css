@@ -12,7 +12,7 @@
 		height: 8vh;
 		display: block;
 		align-content: center;
-		padding: 0.5rem 0;
+		padding: 0.5rem 3rem;
 	}
 	.nav {
 		font-size: var(--F-NORMAL);
@@ -169,7 +169,7 @@
 		height: 8vh;
 		display: block;
 		align-content: center;
-		padding: 0.5rem 0;
+		padding: 0.5rem 8rem;
 	}
 	.nav {
 		font-size: var(--F-NORMAL);
@@ -326,7 +326,7 @@
 		height: 9vh;
 		display: block;
 		align-content: center;
-		padding: 0.5rem 0;
+		padding: 0.5rem 12rem;
 	}
 	.nav {
 		font-size: var(--F-M);
@@ -483,7 +483,7 @@
 		height: 10vh;
 		display: block;
 		align-content: center;
-		padding: 0.5rem 0;
+		padding: 0.5rem 20rem;
 	}
 	.nav {
 		font-size: var(--F-L);
