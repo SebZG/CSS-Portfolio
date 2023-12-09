@@ -76,7 +76,7 @@
 
 	#about {
 		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: repeat(3, auto);
 		grid-template-areas:
 			"aboutL"
 			"aboutC"
@@ -93,7 +93,7 @@
 
 	#work {
 		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: repeat(3, auto);
 		grid-template-areas:
 			"workL"
 			"workC"
@@ -102,8 +102,7 @@
 
 	.work__center {
 		grid-template-columns: 80vw;
-		/* grid-template-rows: 125px 125px 125px 125px 125px; */
-		grid-template-rows: 30vh 30vh 30vh 30vh 30vh;
+		grid-template-rows: repeat(5, 125px);
 		grid-template-areas:
 			"project1 "
 			"project2 "
@@ -116,7 +115,7 @@
 
 	#contact {
 		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: repeat(3, auto);
 		grid-template-areas:
 			"contactL"
 			"contactC"
@@ -148,9 +147,9 @@
 /** 768px */
 
 /* @media only screen and (max-width: 768px) { */
-	/*! HEADER // NAV  */
+/*! HEADER // NAV  */
 
-	/* .name-wrapper {
+/* .name-wrapper {
 		display: none;
 	}
 	.header {
@@ -171,9 +170,9 @@
 		margin-right: 0;
 	} */
 
-	/*! AVATAR // TECH */
+/*! AVATAR // TECH */
 
-	/* .avatar__img {
+/* .avatar__img {
 		border-radius: 15%;
 	}
 
@@ -181,9 +180,9 @@
 		margin: 0 3.5vw;
 	} */
 
-	/*! GENERAL */
+/*! GENERAL */
 
-	/* #about,
+/* #about,
 	#work,
 	#contact,
 	.footer {
@@ -219,9 +218,9 @@
 		font-size: 2.5rem;
 	} */
 
-	/*! ABOUT */
+/*! ABOUT */
 
-	/* #about {
+/* #about {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto auto auto;
 		grid-template-areas:
@@ -236,9 +235,9 @@
 		margin-left: 12vw;
 	} */
 
-	/*! WORK */
+/*! WORK */
 
-	/* #work {
+/* #work {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto auto auto;
 		grid-template-areas:
@@ -258,9 +257,9 @@
 			"project5 ";
 	} */
 
-	/*! CONTACT */
+/*! CONTACT */
 
-	/* #contact {
+/* #contact {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto auto auto;
 		grid-template-areas:
@@ -269,9 +268,9 @@
 			"contactR";
 	} */
 
-	/*! FOOTER */
+/*! FOOTER */
 
-	/* .footer {
+/* .footer {
 		font-size: var(--F-SM);
 		height: 75px;
 	}
