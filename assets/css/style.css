@@ -54,7 +54,7 @@ html {
 
 #about,
 #work {
-	scroll-margin-top: 2.5vh;
+	scroll-margin-top: 15vh;
 }
 
 /*! || HEADER */
@@ -65,16 +65,30 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* position: sticky;
-	top: 0; */
-	padding: 0 0 0 7.5%;
+	position: sticky;
+	top: 0;
+	padding: 0 15% 0 15%;
+	z-index: 100;
+}
+
+.header__border-gradient {
+	position: sticky;
+	top: 5rem;
+	height: 10px;
+	background: linear-gradient(
+		to left,
+		var(--BLACK) 10%,
+		var(--WHITE) 45%,
+		var(--WHITE) 55%,
+		var(--BLACK) 90%
+	);
+	z-index: 100;
 }
 
 /*! NAME */
 
 .name-wrapper {
 	line-height: 1.75rem;
-	margin-left: 5%;
 }
 
 .name__h1 {
@@ -93,7 +107,7 @@ html {
 .nav {
 	font-size: var(--F-L);
 	font-weight: 300;
-	margin-right: 15%;
+	/* margin-right: 15%; */
 }
 
 .nav__ul {
@@ -431,5 +445,4 @@ html {
 	margin-left: 1%;
 	font-weight: 500;
 	font-size: var(--F-M);
-
 }
