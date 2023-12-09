@@ -1,0 +1,292 @@
+/** || MEDIA QUERIES */
+
+@media only screen and (max-width: 576px) {
+	/*! HEADER // NAV  */
+
+	.name-wrapper {
+		display: none;
+	}
+	.header {
+		height: 3rem;
+		display: block;
+		align-content: center;
+		padding: 0.5rem 0;
+	}
+	.nav {
+		font-size: var(--F-XS);
+		margin-right: 0;
+		padding-top: 0.5rem;
+	}
+	.nav__ul {
+		justify-content: space-evenly;
+	}
+	.nav__li {
+		margin-right: 0;
+	}
+
+	/*! AVATAR // TECH */
+
+	.avatar__img {
+		border-radius: 15%;
+	}
+
+	.tech-stack i {
+		margin: 0 3.5vw;
+	}
+
+	/*! GENERAL */
+
+	#about,
+	#work,
+	#contact,
+	.footer {
+		margin-top: 8vh;
+	}
+
+	.avatar,
+	.tech-stack {
+		margin: 8vh 0;
+	}
+
+	.about__left,
+	.work__left,
+	.contact__left {
+		text-align: start;
+		margin-bottom: 3vh;
+		margin-left: 12vw;
+		padding-bottom: 3vh;
+		border-right: none;
+		border-bottom: 2px solid var(--WHITE);
+		max-width: 75vw;
+	}
+
+	.about__left h2,
+	.work__left h2,
+	.contact__left h2 {
+		margin-right: none;
+		font-size: var(--F-XL);
+	}
+
+	.tech-stack i,
+	.contact__center i {
+		font-size: 2.5rem;
+	}
+
+	/*! ABOUT */
+
+	#about {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+			"aboutL"
+			"aboutC"
+			"aboutR";
+	}
+
+	.about__center {
+		font-size: var(--F-SM);
+		max-width: 75vw;
+		margin-left: 12vw;
+	}
+
+	/*! WORK */
+
+	#work {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+			"workL"
+			"workC"
+			"workR";
+	}
+
+	.work__center {
+		grid-template-columns: 80vw;
+		/* grid-template-rows: 125px 125px 125px 125px 125px; */
+		grid-template-rows: 30vh 30vh 30vh 30vh 30vh;
+		grid-template-areas:
+			"project1 "
+			"project2 "
+			"project3 "
+			"project4 "
+			"project5 ";
+	}
+
+	/*! CONTACT */
+
+	#contact {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+			"contactL"
+			"contactC"
+			"contactR";
+	}
+
+	/*! FOOTER */
+
+	.footer {
+		font-size: var(--F-SM);
+		height: 75px;
+	}
+
+	.footer__logo {
+		width: 80px;
+	}
+
+	.footer__h4--left {
+		margin-right: 5vw;
+		font-size: var(--F-NORMAL);
+	}
+
+	.footer__h4--right {
+		margin-left: 5vw;
+		font-size: var(--F-NORMAL);
+	}
+}
+
+/** 768px */
+
+/* @media only screen and (max-width: 768px) { */
+	/*! HEADER // NAV  */
+
+	/* .name-wrapper {
+		display: none;
+	}
+	.header {
+		height: 3rem;
+		display: block;
+		align-content: center;
+		padding: 0.5rem 0;
+	}
+	.nav {
+		font-size: var(--F-XS);
+		margin-right: 0;
+		padding-top: 0.5rem;
+	}
+	.nav__ul {
+		justify-content: space-evenly;
+	}
+	.nav__li {
+		margin-right: 0;
+	} */
+
+	/*! AVATAR // TECH */
+
+	/* .avatar__img {
+		border-radius: 15%;
+	}
+
+	.tech-stack i {
+		margin: 0 3.5vw;
+	} */
+
+	/*! GENERAL */
+
+	/* #about,
+	#work,
+	#contact,
+	.footer {
+		margin-top: 8vh;
+	}
+
+	.avatar,
+	.tech-stack {
+		margin: 8vh 0;
+	}
+
+	.about__left,
+	.work__left,
+	.contact__left {
+		text-align: start;
+		margin-bottom: 3vh;
+		margin-left: 12vw;
+		padding-bottom: 3vh;
+		border-right: none;
+		border-bottom: 2px solid var(--WHITE);
+		max-width: 75vw;
+	}
+
+	.about__left h2,
+	.work__left h2,
+	.contact__left h2 {
+		margin-right: none;
+		font-size: var(--F-XL);
+	}
+
+	.tech-stack i,
+	.contact__center i {
+		font-size: 2.5rem;
+	} */
+
+	/*! ABOUT */
+
+	/* #about {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+			"aboutL"
+			"aboutC"
+			"aboutR";
+	}
+
+	.about__center {
+		font-size: var(--F-SM);
+		max-width: 75vw;
+		margin-left: 12vw;
+	} */
+
+	/*! WORK */
+
+	/* #work {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+			"workL"
+			"workC"
+			"workR";
+	}
+
+	.work__center {
+		grid-template-columns: 75vw;
+		grid-template-rows: 25vh 25vh 25vh 25vh 25vh;
+		grid-template-areas:
+			"project1 "
+			"project2 "
+			"project3 "
+			"project4 "
+			"project5 ";
+	} */
+
+	/*! CONTACT */
+
+	/* #contact {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+			"contactL"
+			"contactC"
+			"contactR";
+	} */
+
+	/*! FOOTER */
+
+	/* .footer {
+		font-size: var(--F-SM);
+		height: 75px;
+	}
+
+	.footer__logo {
+		width: 80px;
+	}
+
+	.footer__h4--left {
+		margin-right: 5vw;
+		font-size: var(--F-NORMAL);
+	}
+
+	.footer__h4--right {
+		margin-left: 5vw;
+		font-size: var(--F-NORMAL);
+	} */
+/* } */
