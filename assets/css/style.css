@@ -18,7 +18,7 @@
 	--ROBOTO-MONO: "Roboto Mono", monospace;
 
 	/** FONT SIZES */
-	--F-XS: 0.5;
+	--F-XS: 0.5rem;
 	--F-SM: 0.75rem;
 	--F-NORMAL: 1rem;
 	--F-M: 1.25rem;
@@ -308,10 +308,13 @@ html {
 }
 
 .label {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	position: absolute;
 	bottom: 0;
+	height: 50px;
 	width: 100%;
-	font-size: var(--F-SM);
 	background-color: var(--YELLOW);
 	color: var(--BLACK);
 	border-bottom-right-radius: 0.5rem;
@@ -320,8 +323,12 @@ html {
 	z-index: 1;
 }
 
+.label h3 {
+	font-size: var(--F-L);
+}
+
 .label p {
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .project:has(.label:hover) .overlay:not(:hover) {
