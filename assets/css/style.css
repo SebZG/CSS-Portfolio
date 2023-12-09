@@ -286,23 +286,23 @@ html {
 
 .project__1 {
 	grid-area: project1;
-	background-image: url("../images/horiseon-demo.png");
+	background-image: url("../images/CSS-Cheatsheet-demo.png");
 	cursor: pointer;
 }
 .project__2 {
 	grid-area: project2;
-	background-image: url("../images/portfolio-1.jpg");
-	cursor: not-allowed;
+	background-image: url("../images/Landing-Page-demo.png");
+	cursor: pointer;
 }
 .project__3 {
 	grid-area: project3;
-	background-image: url("../images/portfolio-2.jpg");
-	cursor: not-allowed;
+	background-image: url("../images/horiseon-demo.png");
+	cursor: pointer;
 }
 .project__4 {
 	grid-area: project4;
 	background-image: url("../images/portfolio-3.jpg");
-	cursor: not-allowed;
+	cursor: none;
 }
 .project__5 {
 	grid-area: project5;
@@ -414,6 +414,9 @@ html {
 
 .fa-envelope {
 	color: var(--RED);
+}
+.fa-github {
+	color: var(--WHITE);
 }
 .fa-linkedin {
 	color: dodgerblue;
