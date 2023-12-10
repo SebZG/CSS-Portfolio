@@ -453,7 +453,7 @@ html {
 .footer__h4--left {
 	margin-right: 1%;
 	font-weight: 500;
-	font-size: var(--F-L);
+	font-size: var(--F-M);
 }
 .footer__h4--right {
 	margin-left: 1%;
