@@ -150,6 +150,12 @@ html {
 	border-radius: 20%;
 }
 
+.full-name__container {
+	display: none;
+	flex-direction: column;
+	text-align: center;
+}
+
 /*! || TECH STACK */
 
 .tech-stack {
@@ -302,12 +308,12 @@ html {
 .project__3 {
 	grid-area: project3;
 	background-image: url("../images/horiseon-demo.png");
-	cursor: pointer;
+	cursor: not-allowed;
 }
 .project__4 {
 	grid-area: project4;
 	background-image: url("../images/portfolio-3.jpg");
-	cursor: none;
+	cursor: not-allowed;
 }
 .project__5 {
 	grid-area: project5;
