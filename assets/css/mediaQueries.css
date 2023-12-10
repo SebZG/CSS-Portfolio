@@ -58,20 +58,19 @@
 
 	.full-name__container {
 		display: flex;
-    
 	}
 
-  .f-name {
-	font-size: var(--F-M);
-	font-weight: 500;
-	letter-spacing: 0.2rem;
-}
+	.f-name {
+		font-size: var(--F-M);
+		font-weight: 500;
+		letter-spacing: 0.2rem;
+	}
 
-.l-name {
-	font-size: var(--F-NORMAL);
-	font-weight: 400;
-	letter-spacing: 0.15rem;
-}
+	.l-name {
+		font-size: var(--F-NORMAL);
+		font-weight: 400;
+		letter-spacing: 0.15rem;
+	}
 
 	/*! GENERAL */
 
@@ -139,9 +138,9 @@
 		margin-left: 12vw;
 	}
 
-  .about p {
-    font-size: var(--F-NORMAL);
-  }
+	.about p {
+		font-size: var(--F-NORMAL);
+	}
 
 	/*! WORK */
 
@@ -253,22 +252,21 @@
 		margin: 0 3.5vw;
 	}
 
-  .full-name__container {
+	.full-name__container {
 		display: flex;
-    
 	}
 
-  .f-name {
-	font-size: var(--F-M);
-	font-weight: 500;
-	letter-spacing: 0.2rem;
-}
+	.f-name {
+		font-size: var(--F-M);
+		font-weight: 500;
+		letter-spacing: 0.2rem;
+	}
 
-.l-name {
-	font-size: var(--F-NORMAL);
-	font-weight: 400;
-	letter-spacing: 0.15rem;
-}
+	.l-name {
+		font-size: var(--F-NORMAL);
+		font-weight: 400;
+		letter-spacing: 0.15rem;
+	}
 
 	/*! GENERAL */
 
@@ -336,9 +334,9 @@
 		margin-left: 12vw;
 	}
 
-  .about p {
-    font-size: var(--F-NORMAL);
-  }
+	.about p {
+		font-size: var(--F-NORMAL);
+	}
 
 	/*! WORK */
 
@@ -366,7 +364,7 @@
 
 	#contact {
 		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: repeat(3, auto) auto auto auto;
 		grid-template-areas:
 			"contactL"
 			"contactC"
@@ -450,22 +448,22 @@
 		margin: 0 3.5vw;
 	}
 
-  .full-name__container {
+	.full-name__container {
 		display: flex;
-    line-height: 1.75rem;
+		line-height: 1.75rem;
 	}
 
-  .f-name {
-	font-size: var(--F-L);
-	font-weight: 500;
-	letter-spacing: 0.2rem;
-}
+	.f-name {
+		font-size: var(--F-L);
+		font-weight: 500;
+		letter-spacing: 0.2rem;
+	}
 
-.l-name {
-	font-size: var(--F-M);
-	font-weight: 400;
-	letter-spacing: 0.15rem;
-}
+	.l-name {
+		font-size: var(--F-M);
+		font-weight: 400;
+		letter-spacing: 0.15rem;
+	}
 
 	/*! GENERAL */
 
@@ -533,9 +531,9 @@
 		margin-left: 12vw;
 	}
 
-  .about p {
-    font-size: var(--F-NORMAL);
-  }
+	.about p {
+		font-size: var(--F-NORMAL);
+	}
 
 	/*! WORK */
 
@@ -563,7 +561,7 @@
 
 	#contact {
 		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: repeat(3, auto) auto auto auto;
 		grid-template-areas:
 			"contactL"
 			"contactC"
@@ -647,22 +645,22 @@
 		margin: 0 3.5vw;
 	}
 
-  .full-name__container {
+	.full-name__container {
 		display: flex;
-    line-height: 1.75rem;
+		line-height: 1.75rem;
 	}
 
-  .f-name {
-	font-size: var(--F-L);
-	font-weight: 500;
-	letter-spacing: 0.2rem;
-}
+	.f-name {
+		font-size: var(--F-L);
+		font-weight: 500;
+		letter-spacing: 0.2rem;
+	}
 
-.l-name {
-	font-size: var(--F-M);
-	font-weight: 400;
-	letter-spacing: 0.15rem;
-}
+	.l-name {
+		font-size: var(--F-M);
+		font-weight: 400;
+		letter-spacing: 0.15rem;
+	}
 
 	/*! GENERAL */
 
@@ -730,9 +728,13 @@
 		margin-left: 12vw;
 	}
 
-  .about p {
-    font-size: var(--F-M);
-  }
+	.about p {
+		font-size: var(--F-M);
+	}
+
+	.about__center article {
+		max-width: 100%;
+	}
 
 	/*! WORK */
 
@@ -760,7 +762,7 @@
 
 	#contact {
 		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto;
+		grid-template-rows: repeat(3, auto) auto auto auto;
 		grid-template-areas:
 			"contactL"
 			"contactC"
