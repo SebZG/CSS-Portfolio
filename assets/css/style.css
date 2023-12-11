@@ -54,7 +54,7 @@ html {
 
 #about,
 #work {
-	scroll-margin-top: 15vh;
+	scroll-margin-top: 17.5vh;
 }
 
 ::selection {
@@ -286,7 +286,7 @@ html {
 	justify-content: center;
 	align-content: center;
 	grid-template-columns: repeat(4, 180px);
-	grid-template-rows: repeat(5, 135px);
+	grid-template-rows: repeat(5, 150px);
 	grid-template-areas:
 		"project1 project1 project1 project1"
 		"project1 project1 project1 project1"
