@@ -169,7 +169,7 @@ html {
 
 .tech-stack i {
 	font-size: 4rem;
-	margin: 0 2.5vw;
+	margin: 0 2vw;
 	transition: all 0.2s ease-in-out;
 }
 
@@ -189,6 +189,9 @@ html {
 }
 .fa-react {
 	color: dodgerblue;
+}
+.fa-bootstrap {
+	color: blueviolet;
 }
 
 /*! || MAIN */
