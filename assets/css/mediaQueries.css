@@ -116,6 +116,9 @@
 
 	.about__center article {
 		font-size: var(--F-SM);
+		letter-spacing: 0.1rem;
+		word-spacing: 0rem;
+		line-height: 1.0rem;
 		max-width: 100%;
 	}
 
@@ -293,6 +296,9 @@
 
 	.about__center article {
 		font-size: var(--F-NORMAL);
+		letter-spacing: 0.1rem;
+		word-spacing: 0rem;
+		line-height: 1.2rem;
 		max-width: 100%;
 	}
 
@@ -471,6 +477,9 @@
 
 	.about__center article {
 		font-size: var(--F-NORMAL);
+		letter-spacing: 0.1rem;
+		word-spacing: 0rem;
+		line-height: 1.2rem;
 		max-width: 100%;
 	}
 
@@ -650,6 +659,9 @@
 
 	.about__center article {
 		font-size: var(--F-NORMAL);
+		letter-spacing: 0.1rem;
+		word-spacing: 0rem;
+		line-height: 1.2rem;
 		max-width: 100%;
 	}
 
