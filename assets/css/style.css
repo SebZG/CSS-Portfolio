@@ -242,12 +242,13 @@ html {
 	display: flex;
 	justify-content: center;
 	text-align: justify;
-
-	font-size: var(--F-NORMAL);
 }
 
 .about__center article {
 	max-width: 720px;
+	font-size: var(--F-NORMAL);
+	letter-spacing: 0.1rem;
+	word-spacing: 0.1rem;
 }
 
 .about__right {

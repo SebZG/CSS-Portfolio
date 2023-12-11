@@ -115,7 +115,7 @@
 	}
 
 	.about__center article {
-		font-size: var(--F-NORMAL);
+		font-size: var(--F-SM);
 		max-width: 100%;
 	}
 
@@ -649,7 +649,7 @@
 	}
 
 	.about__center article {
-		font-size: var(--F-M);
+		font-size: var(--F-NORMAL);
 		max-width: 100%;
 	}
 
