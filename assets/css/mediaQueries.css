@@ -667,7 +667,7 @@
 
 	.work__center {
 		grid-template-columns: 70vw;
-		grid-template-rows: repeat(5, 300px);
+		grid-template-rows: repeat(5, 350px);
 		grid-template-areas:
 			"project1 "
 			"project2 "
