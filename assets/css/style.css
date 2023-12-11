@@ -66,7 +66,7 @@ html {
 
 .header {
 	background-color: var(--BLUE);
-	height: 5rem;
+	height: 6rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -78,7 +78,7 @@ html {
 
 .header__border-gradient {
 	position: sticky;
-	top: 5rem;
+	top: 6rem;
 	height: 10px;
 	background: linear-gradient(
 		to left,
@@ -110,19 +110,19 @@ html {
 /*! NAV */
 
 .nav {
-	font-size: var(--F-L);
+	font-size: var(--F-XL);
 	font-weight: 300;
-	/* margin-right: 15%; */
 }
 
 .nav__ul {
-	display: flex;
+	display: inline;
 }
 
 .nav__li {
+	display: inline;
 	list-style-type: none;
-	margin-right: 10%;
 	transition: all 0.2s ease-in-out;
+	margin: 0 1rem;
 }
 
 .nav__li:hover {
