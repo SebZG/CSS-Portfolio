@@ -21,15 +21,15 @@
 
 - 768px - 1024px
 
-- 1024px - 1440px
+- 1024px - 1200px
 
 ## Desktop
 
 ![1024-1440](./assets/images/demos/Portofolio-Desktop.png)
 
-## 1024px - 1440px
+## 1024px - 1200px
 
-![0-481](./assets/images/demos/Portfolio-1024-1440.png)
+![0-481](./assets/images/demos/Portfolio-1024-1200.png)
 
 ## 768px - 1024px
 
