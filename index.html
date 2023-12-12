@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>SebZG // Web Developer</title>
+		<!-- STYLES -->
 		<link
 			rel="icon"
 			type="image/x-icon"
@@ -12,10 +13,17 @@
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		<link rel="stylesheet" href="./assets/css/mediaQueries.css" />
 		<link rel="stylesheet" href="./assets/css/reset.css" />
+		<!-- FONTS -->
 		<script
 			src="https://kit.fontawesome.com/c1bc576c12.js"
 			crossorigin="anonymous"
 			defer></script>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+			body {
+				font-family: "Roboto", sans-serif;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -27,21 +35,19 @@
 				<!-- <h1 class="name__full nowrap">Sebastian Zapata Gutierrez</h1> -->
 			</div>
 			<!-- NAV -->
-			<span class="nowrap">
-				<nav class="nav">
-					<ul class="nav__ul">
-						<li class="nav__li">
-							<a class="nav__a" href="#about">About</a>
-						</li>
-						<li class="nav__li">
-							<a class="nav__a" href="#work">Work</a>
-						</li>
-						<li class="nav__li">
-							<a class="nav__a" href="#contact">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</span>
+			<nav class="nav nowrap">
+				<ul class="nav__ul">
+					<li class="nav__li">
+						<a class="nav__a" href="#about">About</a>
+					</li>
+					<li class="nav__li">
+						<a class="nav__a" href="#work">Work</a>
+					</li>
+					<li class="nav__li">
+						<a class="nav__a" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
 		<div class="header__border-gradient"></div>
 		<!-- AVATAR -->
@@ -71,7 +77,7 @@
 			<!-- ABOUT -->
 			<section class="about" id="about">
 				<div class="about__left">
-					<h2>About</h2>
+					<h3>About</h3>
 				</div>
 				<div class="about__center">
 					<article>
@@ -91,7 +97,7 @@
 			<!-- WORK -->
 			<section class="work" id="work">
 				<div class="work__left">
-					<h2>Work</h2>
+					<h3>Work</h3>
 				</div>
 				<div class="work__center">
 					<a
@@ -143,7 +149,7 @@
 			<!-- CONTACT-->
 			<section class="contact" id="contact">
 				<div class="contact__left">
-					<h2>Contact</h2>
+					<h3>Contact</h3>
 				</div>
 				<div class="contact__center">
 					<a href="mailto:sebastian.zapata.g@gmail.com">
