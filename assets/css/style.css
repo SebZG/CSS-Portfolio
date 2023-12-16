@@ -67,7 +67,7 @@ html {
 
 .header {
 	background-color: var(--BLUE);
-	height: 6rem;
+	height: 4rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -79,7 +79,7 @@ html {
 
 .header__border-gradient {
 	position: sticky;
-	top: 6rem;
+	top: 4rem;
 	height: 10px;
 	background: linear-gradient(
 		to left,
@@ -98,7 +98,7 @@ html {
 }
 
 .name__h1 {
-	font-size: var(--F-XL);
+	font-size: var(--F-L);
 	letter-spacing: 0.2rem;
 	font-weight: 700;
 }
@@ -111,7 +111,7 @@ html {
 /*! NAV */
 
 .nav {
-	font-size: var(--F-XL);
+	font-size: var(--F-L);
 	font-weight: 500;
 }
 
@@ -142,11 +142,11 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 10vh;
+	margin-top: 7vh;
 }
 
 .avatar__img {
-	width: clamp(100px, 15%, 150px);
+	width: clamp(100px, 15%, 200px);
 	height: auto;
 	border-radius: 20%;
 }
@@ -160,7 +160,7 @@ html {
 /*! || TECH STACK */
 
 .tech-stack {
-	margin-top: 10vh;
+	margin-top: 8vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
