@@ -169,7 +169,7 @@ html {
 }
 
 .tech-stack i {
-	font-size: 4rem;
+	font-size: 3.50rem;
 	margin: 0 1.5vw;
 	transition: all 0.2s ease-in-out;
 }
@@ -295,22 +295,22 @@ html {
 
 .project__1 {
 	grid-area: project1;
-	background-image: url("../images/CSS-Cheatsheet-demo.png");
+	background-image: url("../images/Travel-California-Desktop.png");
 	cursor: pointer;
 }
 .project__2 {
 	grid-area: project2;
-	background-image: url("../images/Landing-Page-demo.png");
+	background-image: url("../images/CSS-Cheatsheet-demo.png");
 	cursor: pointer;
 }
 .project__3 {
 	grid-area: project3;
-	background-image: url("../images/horiseon-demo.png");
+	background-image: url("../images/Landing-Page-demo.png");
 	cursor: not-allowed;
 }
 .project__4 {
 	grid-area: project4;
-	background-image: url("../images/portfolio-3.jpg");
+	background-image: url("../images/horiseon-demo.png");
 	cursor: not-allowed;
 }
 .project__5 {
