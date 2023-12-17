@@ -115,6 +115,11 @@ html {
 	font-weight: 500;
 }
 
+.name-wrapper a {
+	text-decoration: none;
+	color: var(--WHITE);
+}
+
 .nav__ul {
 	display: inline;
 }
@@ -306,7 +311,7 @@ html {
 .project__3 {
 	grid-area: project3;
 	background-image: url("../images/Landing-Page-demo.png");
-	cursor: not-allowed;
+	cursor: pointer;
 }
 .project__4 {
 	grid-area: project4;
