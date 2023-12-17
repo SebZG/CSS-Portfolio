@@ -1,7 +1,7 @@
 # CSS Portofolio
-## A prortfolio showcasing some of my latest work.
+### A prortfolio showcasing some of my latest work.
 
-[**Portfolio**](https://sebzg.github.io/szg-portfolio/)
+[**Portfolio**](https://sebzg.github.io/CSS-Portfolio/)
 
 ## Technologies / Languages
 - HTML
