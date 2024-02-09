@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 /*! RESETS */
 
 * {
@@ -44,6 +47,10 @@ html {
 	color: var(--WHITE);
 
 	background-color: var(--BLACK);
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
 }
 
 #about,
@@ -174,7 +181,7 @@ html {
 }
 
 .tech-stack i {
-	font-size: 3.50rem;
+	font-size: 3.5rem;
 	margin: 0 1.5vw;
 	transition: all 0.2s ease-in-out;
 }
@@ -230,7 +237,7 @@ html {
 	display: grid;
 	grid-template-columns: 17.5% auto 17.5%;
 	grid-template-rows: auto;
-	grid-template-areas: "aboutL aboutC aboutR";
+	grid-template-areas: 'aboutL aboutC aboutR';
 
 	margin-top: 5rem;
 }
@@ -258,6 +265,16 @@ html {
 	max-width: 720px;
 }
 
+.bootstrap-portfolio {
+	color: var(--YELLOW);
+	text-decoration: none;
+	transition: color 0.2s ease-in-out;
+}
+
+.bootstrap-portfolio:hover {
+	color: var(--BLUE);
+}
+
 .about__right {
 	grid-area: aboutR;
 }
@@ -268,7 +285,7 @@ html {
 	display: grid;
 	grid-template-columns: 17.5% auto 17.5%;
 	grid-template-rows: auto;
-	grid-template-areas: "workL workC workR";
+	grid-template-areas: 'workL workC workR';
 
 	margin-top: 5rem;
 }
@@ -291,37 +308,37 @@ html {
 	grid-template-columns: repeat(4, 180px);
 	grid-template-rows: repeat(5, 150px);
 	grid-template-areas:
-		"project1 project1 project1 project1"
-		"project1 project1 project1 project1"
-		"project1 project1 project1 project1"
-		"project2 project2 project5 project4"
-		"project2 project2 project3 project3";
+		'project1 project1 project1 project1'
+		'project1 project1 project1 project1'
+		'project1 project1 project1 project1'
+		'project2 project2 project5 project4'
+		'project2 project2 project3 project3';
 }
 
 .project__1 {
 	grid-area: project1;
-	background-image: url("../images/Bootstrap-Portfolio-Desktop.png");
+	background-image: url('../images/films-4-search.png');
 	cursor: pointer;
 }
 .project__2 {
 	grid-area: project2;
-	background-image: url("../images/Console-Finances-demo.png");
+	background-image: url('../images/Weather-Dashboard-desktop.png');
 	cursor: pointer;
 }
 .project__3 {
 	grid-area: project3;
-	background-image: url("../images/Travel-California-Desktop.png");
+	background-image: url('../images/work-day-scheduler-desktoop.png');
 	cursor: pointer;
 }
 .project__4 {
 	grid-area: project4;
-	background-image: url("../images/CSS-Cheatsheet-demo.png");
-	cursor: not-allowed;
+	background-image: url('../images/Coding-Quiz-quiz.png');
+	cursor: pointer;
 }
 .project__5 {
 	grid-area: project5;
-	background-image: url("../images/Landing-Page-demo.png");
-	cursor: not-allowed;
+	background-image: url('../images/Password-Generator-Desktop.png');
+	cursor: pointer;
 }
 
 .project {
@@ -388,7 +405,7 @@ html {
 	display: grid;
 	grid-template-columns: 17.5% auto 17.5%;
 	grid-template-rows: 1fr;
-	grid-template-areas: "contactL contactC contactR";
+	grid-template-areas: 'contactL contactC contactR';
 
 	height: 6rem;
 	margin-top: 4rem;
@@ -444,9 +461,10 @@ html {
 	margin-top: 4rem;
 }
 
-.footer__logo {
-	width: 120px;
-	height: auto;
+#logo {
+	font-family: 'Fira Code', monospace;
+	font-weight: 500;
+	font-size: var(--F-XL);
 }
 
 .footer__h4--left {

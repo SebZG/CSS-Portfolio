@@ -5,21 +5,12 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="icon" type="image/x-icon" href="./assets/images/szg()-blue-logo.svg" />
+	<link rel="icon" type="image/x-icon" href="./assets/images/SZG()-bg-blue.png" />
 	<title>Seb Z.G // Web Dev</title>
 	<!-- STYLES -->
 	<link rel="stylesheet" href="./assets/css/reset.css" />
 	<link rel="stylesheet" href="./assets/css/style.css" />
 	<link rel="stylesheet" href="./assets/css/mediaQueries.css" />
-	<!-- FONTS -->
-	<script src="https://kit.fontawesome.com/c1bc576c12.js" crossorigin="anonymous" defer></script>
-	<style>
-		@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
-
-		body {
-			font-family: "Roboto", sans-serif;
-		}
-	</style>
 </head>
 
 <body>
@@ -29,8 +20,6 @@
 			<a href="#">
 				<h1 class="name__h1 nowrap">Sebastian Z.G</h1>
 			</a>
-			<!-- <h2 class="name__h2 nowrap">Zapata Gutierrez</h2> -->
-			<!-- <h1 class="name__full nowrap">Sebastian Zapata Gutierrez</h1> -->
 		</div>
 		<!-- NAV -->
 		<nav class="nav nowrap">
@@ -81,7 +70,7 @@
 						currently on a Front-End Web Development Bootcamp which I will
 						finish end of March. I am learning CSS, HTML, JavaScript,
 						Bootstrap and React. Feel free to look around and contact me if
-						you have any questions.
+						you have any questions. Checkout my <a target="_blank" class="bootstrap-portfolio" href="https://sebzg.github.io/Bootstrap-Portfolio/">Bootstrap Portfolio!</a>
 					</p>
 				</article>
 			</div>
@@ -94,38 +83,38 @@
 				<h3>Work</h3>
 			</div>
 			<div class="work__center">
-				<a class="project__1 project" href="https://sebzg.github.io/Bootstrap-Portfolio/" alt="Bootstrap Portfolio">
+				<a class="project__1 project" href="https://films-4-u.vercel.app/" alt="Bootstrap Portfolio">
 					<div class="label">
-						<h3>Bootstrap Portfolio</h3>
-						<p class="techs">HTML / Bootstrap</p>
+						<h3>Films 4 U</h3>
+						<p class="techs">React / JSX / Bootstrap</p>
 					</div>
 					<div class="overlay"></div>
 				</a>
-				<a class="project__2 project" href="https://sebzg.github.io/Console-Finances/" alt="Console Finances">
+				<a class="project__2 project" href="https://sebzg.github.io/Weather-Dashboard/" alt="Console Finances">
 					<div class="label">
-						<h3>Console Finances</h3>
-						<p class="techs">HTML / CSS / JavaScipt</p>
+						<h3>Weather Dashboard</h3>
+						<p class="techs">JavaScipt / Bootstrap / jQuery</p>
 					</div>
 					<div class="overlay"></div>
 				</a>
-				<a class="project__3 project" href="https://sebzg.github.io/Travel-California/" alt="Travel California">
+				<a class="project__3 project" href="https://sebzg.github.io/Work-Day-Scheduler/" alt="Travel California">
 					<div class="label">
-						<h3>Travel California</h3>
-						<p class="techs">HTML / Bootstrap</p>
+						<h3>Work Day Scheduler</h3>
+						<p class="techs">JavaScript / Bootstrap / jQuery</p>
 					</div>
 					<div class="overlay"></div>
 				</a>
-				<a class="project__4 project" href="https://sebzg.github.io/CSS-Cheatsheet/" alt="CSS Cheatsheet">
+				<a class="project__4 project" href="https://sebzg.github.io/Code-Quiz/" alt="CSS Cheatsheet">
 					<div class="label">
-						<h3>CSS Cheatsheet</h3>
-						<p class="techs">HTML / CSS</p>
+						<h3>Quiz App</h3>
+						<p class="techs">HTML / Bootstrap / JavaScript</p>
 					</div>
 					<div class="overlay"></div>
 				</a>
-				<a class="project__5 project" href="https://sebzg.github.io/Landing-Page/" alt="Landing / Contact Page">
+				<a class="project__5 project" href="https://sebzg.github.io/Password-Generator/" alt="Landing / Contact Page">
 					<div class="label">
-						<h3>Landing Page</h3>
-						<p class="techs">HTML / CSS</p>
+						<h3>Password Generator</h3>
+						<p class="techs">HTML / CSS / JavaScript</p>
 					</div>
 					<div class="overlay"></div>
 				</a>
@@ -156,10 +145,18 @@
 	<!-- FOOTER -->
 	<footer class="footer">
 		<h4 class="footer__h4--left">&copy;</h4>
-		<img class="footer__logo" src="./assets/images/szg()-white-svg.svg" alt="Logo" width="500px" height="500px" />
-		<h4 class="footer__h4--right">2023</h4>
-		<!-- <h4 class="footer__h4--right">&copy; 2023</h4> -->
+		<h4 id="logo">SZG()</h4>
+		<h4 class="footer__h4--right"></h4>
 	</footer>
+
+	<!-- Set Current Year -->
+	<script>
+		const year = new Date().getFullYear();
+		const logo = document.querySelector(".footer__h4--right");
+		logo.innerText = year;
+	</script>
+	<!-- FONTS -->
+	<script src="https://kit.fontawesome.com/c1bc576c12.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
