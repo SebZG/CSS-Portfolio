@@ -59,8 +59,8 @@ body {
 }
 
 ::selection {
-	background-color: var(--BLUE);
-	color: var(--WHITE);
+  background-color: var(--YELLOW);
+  color: var(--BLACK);
 }
 
 .about__left h3,
